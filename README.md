@@ -14,3 +14,10 @@ It is a configured version of daves original code to fit two multiplexers that r
 
 To make the code work (compile) in the arduino IDE you must install the midi library files.
 You can find these at https://github.com/FortySevenEffects/arduino_midi_library/releases/tag/4.2
+
+Notes for soldering:
+
+Solder the parts in the order from small to large.
+Solder the two pinheader sockets in the top holes at the back of the board, leaving the two holes open at the bottom.
+(when looking at the board in such a wat that the printed R potmeter values are in normal reading order).
+So that the arduino can be clicked into the sockets at the back of the board.
