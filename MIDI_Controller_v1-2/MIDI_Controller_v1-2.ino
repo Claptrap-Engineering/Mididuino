@@ -33,8 +33,8 @@ byte NUMBER_MUX_POTS = 16;
 
 
 //Mux M1(10, 16, false); //Digital multiplexer on Arduino pin 10
-Mux M1(A3, 8, true); //Analog multiplexer on Arduino analog pin A0
-Mux M2(A4, 8, true); //Analog multiplexer on Arduino analog pin A0
+Mux M1(A1, 8, true); //Analog multiplexer on Arduino analog pin A0
+Mux M2(A2, 8, true); //Analog multiplexer on Arduino analog pin A0
 //*******************************************************************
 
 
