@@ -7,7 +7,7 @@
   by Notes and Volts
   www.notesandvolts.com
 
-  Version 1.2 **Arduino UNO ONLY!**
+  Version 1.2 **Arduino UNO ONLY!** (ALSO WORKS ON NANO)
  *************************************************************/
 
 MIDI_CREATE_DEFAULT_INSTANCE();
@@ -104,21 +104,22 @@ Button *MUXBUTTONS[] {};
 //**Command parameter is for future use**
 
 Pot MPO1(M1, 0, 0, 1, 1);
-Pot MPO2(M1, 1, 0, 2, 1);
-Pot MPO3(M1, 2, 0, 3, 1);
-Pot MPO4(M1, 3, 0, 4, 1);
-Pot MPO5(M1, 4, 0, 5, 1);
-Pot MPO6(M1, 5, 0, 6, 1);
-Pot MPO7(M1, 6, 0, 7, 1);
-Pot MPO8(M1, 7, 0, 8, 1);
-Pot MPO9(M2, 8, 0, 9, 1);
-Pot MPO10(M2, 9, 0, 10, 1);
-Pot MPO11(M2, 10, 0, 11, 1);
-Pot MPO12(M2, 11, 0, 12, 1);
-Pot MPO13(M2, 12, 0, 13, 1);
-Pot MPO14(M2, 13, 0, 14, 1);
-Pot MPO15(M2, 14, 0, 15, 1);
-Pot MPO16(M2, 15, 0, 16, 1);
+Pot MPO2(M1, 1, 0, 7, 1);
+Pot MPO3(M1, 2, 0, 50, 1);
+Pot MPO4(M1, 3, 0, 51, 2);
+Pot MPO5(M1, 4, 0, 52, 1);
+Pot MPO6(M1, 5, 0, 53, 2);
+Pot MPO7(M1, 6, 0, 54, 1);
+Pot MPO8(M1, 7, 0, 55, 2);
+Pot MPO9(M2, 8, 0, 56, 1);
+Pot MPO10(M2, 9, 0, 57, 2);
+Pot MPO11(M2, 10, 0, 58, 1);
+Pot MPO12(M2, 11, 0, 59, 2);
+Pot MPO13(M2, 12, 0, 60, 1);
+Pot MPO14(M2, 13, 0, 61, 2);
+Pot MPO15(M2, 14, 0, 62, 1);
+Pot MPO16(M2, 15, 0, 63, 2);
+
 //*******************************************************************
 //Add multiplexed pots used to array below like this->  Pot *MUXPOTS[] {&MPO1, &MPO2, &MPO3, &MPO4, &MPO5, &MPO6.....};
 Pot *MUXPOTS[] {&MPO1, &MPO2, &MPO3, &MPO4, &MPO5, &MPO6,&MPO7, &MPO8, &MPO9, &MPO10, &MPO11, &MPO12,&MPO13, &MPO14, &MPO15, &MPO16};
