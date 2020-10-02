@@ -21,3 +21,9 @@ Solder the parts in the order from small to large.
 Solder the two pinheader sockets in the top holes at the back of the board, leaving the two holes open at the bottom,
 (when looking at the board in such a way so the printed R potmeter values are in normal reading order)
 So that the arduino can be clicked into the sockets at the back of the board. See the images folder for reference pictures.
+
+Din plug pinout (see pinout image in pcb image folder)
+
+Connect pin 1 of the jumpers with pin 5 of the din plug (signal)
+Connect pin 2 of the jumpers with pin 2 of the din plug (ground)
+Connect pin 3 of the jumpers with pin 4 of the din plug (5v)
